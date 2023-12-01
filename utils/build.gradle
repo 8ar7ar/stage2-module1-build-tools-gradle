@@ -1,7 +1,16 @@
 plugins {
     id 'java-library' // id for library
     id 'maven-publish'  // id for maven to publish jar to local repository
+    id 'org.sonarqube' version '3.3'
 }
+
+sonarqube {
+    properties {
+        property 'sonar.host.url', 'http://your-sonarqube-server'
+
+    }
+}
+
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11 // provide sourceCompatibility
