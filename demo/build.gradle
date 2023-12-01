@@ -1,12 +1,12 @@
 plugins {
+    id 'application'
     id 'java'
-    id 'org.sonarqube' version '3.3'
+    id 'java-library'
+    id 'maven-publish'
 }
 
-sonarqube {
-    properties {
-        property 'sonar.host.url', 'http://your-sonarqube-server'
-    }
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
 }
 
 repositories {
@@ -14,14 +14,17 @@ repositories {
 }
 
 dependencies {
-    implementation project(':utils')
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
+    implementation project(path: ':utils')
+    implementation project(path: ':utils')
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_11
+jar {
+    manifest {
+        attributes("Implementation-Title": "GradleDemo",
+                "Implementation-Version": archiveVersion)
+    }
 }
-
-//add everything here
 
 test {
     useJUnitPlatform()
