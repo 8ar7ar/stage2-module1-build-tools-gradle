@@ -7,7 +7,6 @@ plugins {
 sonarqube {
     properties {
         property 'sonar.host.url', 'http://your-sonarqube-server'
-
     }
 }
 
