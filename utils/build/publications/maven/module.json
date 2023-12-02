@@ -28,10 +28,10 @@
           "name": "utils-1.0-SNAPSHOT.jar",
           "url": "utils-1.0-SNAPSHOT.jar",
           "size": 1089,
-          "sha512": "4d5534729bd4ba6d0f270cc2fe51fb8a54ee8958b092ba0b45fb1fc3e9dba04fcd582056372dfc5232e426a7c323c6bd5da90c99bc7baafa559b036c1082ad6a",
-          "sha256": "5b72daf7be94d744b79ca866840dc99242bf39c3b11bacf49199d6aa1578b34d",
-          "sha1": "3ef906f529ea079154ab6d57bc7f16639f270a6f",
-          "md5": "e9ad3ee28bfb0ffb3bdec3bf1c9cdf1a"
+          "sha512": "36c4f73df1b089a2541a85d7f1430cf49d7b76f0b98caf0cf04e24b5745c5d295286a42a776d8bd67e446b5e40a23fdbdfe34a9d180733801b578075a7ef3652",
+          "sha256": "a3e3d67ed9af8f413cc897b42242ebc95550505358b81fb9abaf5ae3f9f08d65",
+          "sha1": "9705ecc06173ccb789386fc4013a74667d311ff6",
+          "md5": "2e5b829edeb2c7cc56575e84dba4ecd8"
         }
       ]
     },
@@ -58,10 +58,10 @@
           "name": "utils-1.0-SNAPSHOT.jar",
           "url": "utils-1.0-SNAPSHOT.jar",
           "size": 1089,
-          "sha512": "4d5534729bd4ba6d0f270cc2fe51fb8a54ee8958b092ba0b45fb1fc3e9dba04fcd582056372dfc5232e426a7c323c6bd5da90c99bc7baafa559b036c1082ad6a",
-          "sha256": "5b72daf7be94d744b79ca866840dc99242bf39c3b11bacf49199d6aa1578b34d",
-          "sha1": "3ef906f529ea079154ab6d57bc7f16639f270a6f",
-          "md5": "e9ad3ee28bfb0ffb3bdec3bf1c9cdf1a"
+          "sha512": "36c4f73df1b089a2541a85d7f1430cf49d7b76f0b98caf0cf04e24b5745c5d295286a42a776d8bd67e446b5e40a23fdbdfe34a9d180733801b578075a7ef3652",
+          "sha256": "a3e3d67ed9af8f413cc897b42242ebc95550505358b81fb9abaf5ae3f9f08d65",
+          "sha1": "9705ecc06173ccb789386fc4013a74667d311ff6",
+          "md5": "2e5b829edeb2c7cc56575e84dba4ecd8"
         }
       ]
     }
